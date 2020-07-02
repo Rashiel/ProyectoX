@@ -2,7 +2,7 @@
 
 $id = $_GET['id'];
 
-$db = new mysqli('localhost', 'root', '', 'proyectoa');
+$db = new mysqli('localhost', 'root', '', 'proyectox');
 if ($db->connect_errno) {
     die("Error al conectar : " . $db->connect_error);
 }
@@ -32,6 +32,14 @@ if ($result->num_rows == 0) {
         <p>
             <label>Edad</label>
             <input type="text" name="edad" value="<?php echo $reg['edad']; ?>">
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="text" name="email" value="<?php echo $reg['email']; ?>">
+        </p>
+        <p>
+            <label>Direccion</label>
+            <input type="text" name="direccion" value="<?php echo $reg['direccion']; ?>">
         </p>
         <input type="submit">
     </form>

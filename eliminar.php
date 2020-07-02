@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli('localhost','root','','proyectoa');
+$db = new mysqli('localhost','root','','proyectox');
 if($db->connect_errno)
 {
     die("Error al conectar : ".$db->connect_error);

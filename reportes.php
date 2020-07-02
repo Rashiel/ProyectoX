@@ -1,4 +1,4 @@
 <?php
     include("menu.php");
 ?>
-<h1>Este es el Reportes</h1>
+<h1>Este es Reportes</h1>
